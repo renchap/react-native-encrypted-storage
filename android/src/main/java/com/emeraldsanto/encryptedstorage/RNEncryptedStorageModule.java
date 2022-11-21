@@ -22,7 +22,7 @@ public class RNEncryptedStorageModule extends ReactContextBaseJavaModule {
 
     private String getStorageName(ReadableMap options) {
       String bundleId = this.getReactApplicationContext().getPackageName();
-      String storageName = options.hasKey("storageName") ?
+      String storageName = options != null && options.hasKey("storageName") ?
         options.getString("storageName") : bundleId;
       return storageName;
     }
