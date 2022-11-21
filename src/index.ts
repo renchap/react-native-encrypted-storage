@@ -1,3 +1,3 @@
 export { default } from './EncryptedStorage';
-export { EncryptedStorageOptions } from './EncryptedStorage';
+export type { EncryptedStorageOptions } from './EncryptedStorage';
 export * from './constants';
