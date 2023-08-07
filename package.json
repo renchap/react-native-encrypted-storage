@@ -22,7 +22,9 @@
     "!**/__mocks__",
     "!**/*.test.*"
   ],
-  "scripts": {},
+  "scripts": {
+    "prepare": "bob build"
+  },
   "keywords": [
     "react-native",
     "ios",
